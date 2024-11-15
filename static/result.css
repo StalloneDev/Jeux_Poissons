@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    text-align: center;
+    color: blue;
+    flex-direction: column;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    /* margin-bottom: 20px; */
+}
+
+.container {
+    /* background-color: blue; */
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    width: auto;
+    max-width: 500px;
+    padding: 0;
+    text-align: center;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+
+.image-container {
+    /* margin: 20px auto; */
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.outer-circle {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: auto;
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    /* border: 1px solid white; */
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    width: 30%;
+    margin-top: -5px;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+.result-header {
+    /* font-family: 'Times New Roman', Times, serif; */
+    color: #23C686;
+    font-weight: bold;
+}
+
+.result-header.incorrect {
+    color: red; /* Message en rouge pour mauvaise réponse */
+}
+
+/* Vrai */
+.fact-container ul {
+    font-family: Nunito Sans;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23.19px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.fact-container li {
+    margin: 10px 0;
+    color: #000000;
+
+}
+
+.fact-container li strong {
+    color: #1C58F2;
+    
+}
+
+.fact h4{
+    color: #1C58F2;
+}
+
+.fact {
+    margin-top: 10px;
+    padding: 4px;
+    background-color:#0060FF1A;
+    color: #333;
+    border-radius: 10px;
+    margin-left: 60px;
+    width: 250px;
+    
+}
+
+.fact-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.fact-item {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.fact-item::before {
+    content: "•";
+    color: #2196F3;
+    position: absolute;
+    left: 5px;
+    font-size: 1.2em;
+}
+
+
